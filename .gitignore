@@ -1,3 +1,4 @@
 [Bb]in
 obj/
-SimpleCAS.suo
+*.suo
+*.user
