@@ -1,7 +1,7 @@
 SimpleCAS
 =========
 
-SimpleCAS is a very simple CAS storage implementation written in C#. Usage is super simple:
+SimpleCAS is a very simple CAS (http://en.wikipedia.org/wiki/Content-addressable_storage) storage implementation written in C#. Usage is super simple:
 
 1. Initialize the static storagemanager instance
 `StorageManager.Current = new FileSystemStorageManager(Directory.GetCurrentDirectory() + "\\Storage");`
